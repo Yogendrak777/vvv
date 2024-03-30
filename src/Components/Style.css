@@ -1,0 +1,62 @@
+.RoundCard{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+    margin-left: 20px;
+    background-color: #282c34;
+    transition: 0.3s;
+    &:hover{
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    }
+}
+.GreendzineHead{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
+.navBar{
+    background-color: #282c34;
+    color: #00b894;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:3px;
+    box-shadow: 0px 5px 10px 0px rgba(22, 231, 33, 0.2);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+.buttons{
+   text-align: center;
+   margin-top: 20px;
+}
+.PieChart{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.bg{
+    background-color: #282c34;
+    min-height: 100vh;
+}
+.ErrorsLogs{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00b894;
+}
+.ErrorsLogsbody{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: red;
+
+}
+.Table{
+    margin-left: 20px;
+    margin-top: 20px;
+   text-align: center;
+   
+}
